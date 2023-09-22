@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> My Profile </title>
+    <style>
+        body {
+            background-image: url("css.jpg");
+            background-repeat: no-repeat;
+            font-style: verdana;
+            background-size: 500% 500%;
+
+        } 
+
+        .container{
+            display: flex;
+            margin: 5px;
+            height: 200px;
+            
+        }
+        
+        .left{
+            border: solid 2px;
+            height: 800px;
+            width: 900%;
+            background: linear-gradient(rgb(173, 255,47),rgb(255,255,0),rgb(140,140,140),pink,gray);
+            margin: 50px 27.5% 10px 27.5%;
+            text-align: center;
+            border-radius: 10px;
+            
+        }
+
+        .img{
+            height: 40%;
+            width: 50%;
+            border-radius: 50%;
+            border: solid 5px;
+            margin-top: 10%;
+            border-color: rgb(205, 50, 184);
+        }
+
+        .icons{
+            height: 4%;
+            width: 4%;
+            margin-top: 0%;
+        }
+        </style>
+    </head>
+
+ <body>
+    <div class="container">
+        <div class="left">
+            <img class="img" src="img.jpg">
+            <h1>Keneth Gaquit Galleniro </h1> 
+            </strong>@gallenirokeneth<strong>
+                <h1>ABOUT</h1>
+                <p style="text-align: center"> AGE: 23</p>
+                <p style="text-align: center"> NUMBER: 09272762081 </p>
+                <p style="text-align: center"> B-DATE: February 21, 2000     <p style="text-align: center"> LOCATION: Kabankalan City </p>
+                <p style="text-align: center"> Motto- “Education is the most powerful weapon which you can use to change the world"</p>
+            <div>
+                <img class="icons" src="img/facebook.jpg">
+                <img class="icons" src="img/tiktok.jpg">
+                <img class="icons" src="img/email99.jpg">
+            </div>
+        </div>
+    </div>
+ </body>
+</html>
